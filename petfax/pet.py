@@ -12,8 +12,8 @@ def index():
 @bp.route('/<int:pet_id>')
 def show():
     # pet = pets[pet_id - 1]
-    for pet_id in pets:
-        print(pet_id)
+    # for pet_id in pets:
+        # print(pet_id)
         print(pets[0], '*****')
         return render_template('/pets/show.html', pets=pets)
     

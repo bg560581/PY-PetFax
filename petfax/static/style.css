@@ -1,6 +1,6 @@
 
 body {
-    background: black;
+    background: rgb(251, 226, 164);
     font-family:fantasy;
 }
 
@@ -8,77 +8,77 @@ img{
     width:50%;
     margin: auto;
 }
-/* .container {
+.container {
     width: 50%;
     margin: 2em auto;
     padding: 1em 3em 3em 3em;
     border-radius: 1em;
     background: white;
     box-shadow: 2px 2px #ddd;
-} */
-/* h1 {
+}
+h1 {
     margin: 0;
     color: var(--main-accent);
     font-family: 'Bowlby One', impact;
     font-size: 4em;
-    text-align: center; */
-/* }
+    text-align: center;
+}
 h2 {
     color: var(--second-accent);
     margin: 0.5em 0;
 } */
-/* a {
+a {
     font-family: var(--accent-font);
     text-decoration: none;
     color: var(--main-accent);
-} */
-/* .callout {
+}
+.callout {
     background: #eee;
     padding: 0.5em;
     border-radius: 1em;
     text-align: center;
     font-family: var(--accent-font);
     font-weight: 400;
-} */
+}
 
 /* PETS */ 
-/* .pets-container {
+.pets-container {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
     margin: 1em 0;
-} */
-/* .pets-container img {
+}
+.pets-container img {
     width: 100%;
     border-radius: 1em;
     display: block;
     margin-bottom: 0.5em;
-} */
-/* .pet {
+}
+.pet {
     width: 46%;
     margin: 0 0.5em;
-} */
+}
 
 /* FACTS */
-/* .facts-container {
+.facts-container {
     width: 100%;
     margin-bottom: 1em;
-} */
-/* input, textarea {
+}
+input, textarea {
     width: 100%;
     border: 1px solid #ddd;
     border-radius: 0.5em;
     padding: 1em;
     box-sizing: border-box;
-} */
-/* textarea {
+}
+textarea {
     resize: vertical;
-} */
-/* input:focus, textarea:focus {
+}
+input:focus, textarea:focus {
     outline: none;
     border: 1px solid var(--main-accent);
-} */
-/* input[type="submit"] {
+}
+input[type="submit"] {
     border: none;
     background: var(--second-accent);
     font-family: var(--header-font);
@@ -88,8 +88,8 @@ h2 {
     padding: 0.5em;
     transition-property: background;
     transition-duration: 0.2s;
-} */
-/* input[type="submit"]:hover {
+}
+input[type="submit"]:hover {
     cursor: pointer;
     background: var(--main-accent);
-} */
+}

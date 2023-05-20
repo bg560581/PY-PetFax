@@ -10,12 +10,12 @@ def index():
     return render_template('/pets/index.html', pets=pets)
 
 @bp.route('/<int:pet_id>')
-def show():
-    # pet = pets[pet_id - 1]
+def show(pet_id):
+    pet = pets[pet_id - 1]
     # for pet_id in pets:
         # print(pet_id)
-        print(pets[0], '*****')
-        return render_template('/pets/show.html', pets=pets)
+    print(pets[0], '*****')
+    return render_template('/pets/show.html', pet=pet)
     
 # @bp.route('/new')
 # def fact():
